@@ -23,14 +23,15 @@
 ### 2) Problem 2: VISUALIZATION FOR SPECIFIC HIGHER AVERAGE
 ```python
    plt.figure(figsize=(4,4))
-  plt.bar(gaverage.index, gaverage.values)
+  plt.bar(gaverage.index, gaverage.values) / 
   plt.title('Average Comparison (Gender)')
   plt.xlabel('Gender')
   plt.ylabel('Average Grade')
   plt.show()
 ```
 ##### Step-by-Step Procedure of Functions: 
-- `gaverage1 = ECE.groupby('Gender')['Average'].mean()` → This code groups the dataset by whats needed and calculates the mean of the Average column for each group.
+- `gaverage1 = ECE.groupby('Gender/Hometown/Track')['Average'].mean()` → This code groups the dataset by whats needed and calculates the mean of the Average column for each group.
+  
 - `plt.figure()` → Creates the size of the length by width
 - `plt.bar()` → This Code plots a bar chart with its designated axis, .index for x axis and .values for y axis
 - `plt.title()` → This creates the title for the plotted graph
