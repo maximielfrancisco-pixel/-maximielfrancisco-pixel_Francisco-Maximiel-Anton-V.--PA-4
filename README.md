@@ -23,7 +23,7 @@
 ### 2) Problem 2: VISUALIZATION FOR SPECIFIC HIGHER AVERAGE
 ```python
    plt.figure(figsize=(4,4))
-  plt.bar(gaverage.index, gaverage.values) / 
+  plt.bar(gaverage.index, gaverage.values)
   plt.title('Average Comparison (Gender)')
   plt.xlabel('Gender')
   plt.ylabel('Average Grade')
