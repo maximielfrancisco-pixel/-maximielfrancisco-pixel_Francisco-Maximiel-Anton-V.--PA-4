@@ -9,7 +9,7 @@
     ['Name', 'GEAS', 'Electronics']
 
   subjects = ['Math', 'Electronics', 'GEAS', 'Communication']
-    ECE["Average"] = ECE[subjects].mean(axis=1)
+    ECE['Average'] = ECE[subjects].mean(axis=1)
 ```
 ##### Step-by-Step Procedure of Functions:
 #### a. Instru = [“Name”, “GEAS”, “Electronics >70”]
